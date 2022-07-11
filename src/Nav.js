@@ -1,9 +1,10 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import logo from './logo.svg'
 
 function Nav() {
     return (
       <div className="Nav">
+        <img src={logo} alt='logo' width="100px"/>
         <h1>Chris' Website</h1>
         <ul>
           <li>Home</li>
