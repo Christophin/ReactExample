@@ -1,9 +1,9 @@
 import React from 'react'
 import logo from './logo.svg';
 
-function StaticMarkup() {
+function MainContent() {
   return (
-    <div className="StaticMarkup" >
+    <div className="MainContent App-default" >
       <img src={logo} alt="logos" width="80px" />
       <h1 float="right">Fun facts about react</h1>
       <ol>
@@ -17,4 +17,4 @@ function StaticMarkup() {
   );
 }
 
-export default StaticMarkup
+export default MainContent

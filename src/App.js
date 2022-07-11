@@ -1,17 +1,14 @@
 import './App.css';
-import Nav from './Nav'
-import StaticMarkup from './StaticMarkup'
+import Header from './Header'
+import MainContent from './MainContent'
+import Footer from './Footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Nav />
-        <StaticMarkup />
-      </header>
-      <footer>
-        <p>© 2022 Coralli development. All rights reseved</p>
-      </footer>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
