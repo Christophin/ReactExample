@@ -40,7 +40,10 @@
 
 .Header {
   display: flex;
-  justify-content: center;
+}
+
+.header-title {
+  margin-right: auto;
 }
 
 .header-img {
