@@ -1,6 +1,6 @@
 .App {
-  text-align: center;
-
+  /*text-align: center;*/
+  font-family: 'Inter';
 }
 
 .App-logo {
@@ -19,8 +19,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;
+  justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -40,11 +40,13 @@
 
 .Header {
   display: flex;
+  background-color: #21222A;
 }
 
 .header-title {
   margin-right: auto;
-  color: #82D7F7;
+  color: #61DAFB;
+  font-weight: 700;
 }
 
 .header-img {
@@ -54,23 +56,30 @@
 .header-course {
   list-style: none;
   display: flex;
-  margin-right: 2vh;
+  margin-right: 6vh;
+  color: #DEEBF8;
 }
 
 .header-items > li {
   padding: 2vh;
 }
 
-.MainContent {
+.Main {
   display: flex;
 }
 
-.main-list > li {
-  color: #82D7F7;
-  list-style-type: disc;
+.main-title {
+  margin: 10vh 0vh 4vh 6vh;
 }
 
-.main-list > li > span {
+.main-list > li {
   color: white;
+  list-style-type: disc;
+  margin-left: 8vh;
+  padding-bottom: 4vh;
+}
 
+.main-list > li::marker {
+  color: #61DAFB;
+  font-size: 2.2rem;
 }
