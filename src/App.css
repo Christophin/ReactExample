@@ -44,17 +44,33 @@
 
 .header-title {
   margin-right: auto;
+  color: #82D7F7;
 }
 
 .header-img {
   width: 100px;
 }
 
-.header-items {
+.header-course {
   list-style: none;
   display: flex;
+  margin-right: 2vh;
 }
 
 .header-items > li {
   padding: 2vh;
+}
+
+.MainContent {
+  display: flex;
+}
+
+.main-list > li {
+  color: #82D7F7;
+  list-style-type: disc;
+}
+
+.main-list > li > span {
+  color: white;
+
 }

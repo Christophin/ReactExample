@@ -6,12 +6,7 @@ function Header() {
       <div className="Header">
         <img className="header-img" src={logo} alt='logo'/>
         <h1 className="header-title">React Facts</h1>
-        <ul className="header-items">
-          <li>Home</li>
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
+        <h2 className="header-course">React Course - Project 1</h2>
       </div>
     );
 }
